@@ -1,10 +1,6 @@
 # Login With Amazon example
-Basic Log in with Amazon example.
+1. Fill in your Amazon "Client ID" in index.html-file under src/resources/static-folder.
+2. Start application on Windows "mvnw.cmd spring-boot:run" or use "run.bat".
+3. To access the page: https://localhost
 
-Fill in your Amazon "Client ID" in index.html-file under src/resources/static-folder.
-
-Start application on Windows:
-mvnw.cmd spring-boot:run
-
-(TODO: Add HTTPS)<br/>
-To access the page: http://localhost:8080/index.html
+Note! Use your IP address instead of "localhost" and add your IP to Amazon Security Profile under "Web Settings"-tab where you can also find your Client ID.
